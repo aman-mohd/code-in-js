@@ -37,8 +37,8 @@ bestStockTradeTime(testArr);
 // colgate => no match
 
 
-const dictioNarray = ["news", "paper", "tele", "phone", "walk", "man", "water", "park"]
-const word = "newspaper";
+const dictioNarray = ["news", "paper", "tele", "phone", "walk", "man", "water", "park", "lap", "top"]
+const word = "laptop";
 
 const checkWords = (word,dictionary) => {
   let wordLength = word.length;
@@ -59,7 +59,7 @@ const checkWords = (word,dictionary) => {
     return console.log("Match");
   }
   else{
-    return console.log("not a match");
+    return console.log("Not a Match");
   }
 }
 
